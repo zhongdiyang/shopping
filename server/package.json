@@ -1,0 +1,28 @@
+{
+  "name": "shoppingServer",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "zhongdiyang <1084575562@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "start": "node build/dev-server.js",
+    "build": "node build/build.js",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.0"
+  },
+  "devDependencies": {
+    "express": "^4.15.4"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
